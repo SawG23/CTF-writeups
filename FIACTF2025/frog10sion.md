@@ -215,7 +215,7 @@ Oke khi hiểu được quá trình dropper của malware rồi, ta sẽ thử �
 Tải về và ta sẽ thấy trong file **.gz** này có chứa 1 file tên là **stealer**
 <p align="center"><img src="https://hackmd.io/_uploads/SkDZlJ0mxg.png" alt="image"></p>
     
-Nhưng theo logic của lệnh powershell, thì thằng stealer này đã bị đảo ngược chuỗi. Để kiểm tra điều này thì ta cũng có thể giải nén và quăng vào tool **HxD** để thấy rõ điều đó. 
+Nhưng theo logic của lệnh powershell, thì thằng stealer này đã bị đảo ngược vị trí các byte. Để kiểm tra điều này thì ta cũng có thể giải nén và quăng vào tool **HxD** để thấy rõ điều đó. 
 
 <p align="center"><img src="https://hackmd.io/_uploads/r1gxbkR7gl.png" alt="image"></p>
 Thì ta sẽ thấy ZM ở cuối file, nếu đúng thì nó sẽ phải là MZ và sẽ nằm ở đầu file vì đây chính là magic header của file execute trên hđh windows 64-bit. Chứng tỏ thằng này đã bị **reverse byte** theo đúng như logic powershell của thằng dropper.

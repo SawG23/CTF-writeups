@@ -134,7 +134,9 @@ Nhưng do author đã disable *"https://pastebin.com/raw/90qeYSHA"*, rất may l
 ![image](https://hackmd.io/_uploads/rkI84rURll.png)
 
 bỏ vào tool **Exeinfo PE** để kiểm tra bước đầu
+
 ![Screenshot 2025-10-22 185057](https://hackmd.io/_uploads/rkqBrH80el.png)
+
 
 chúng ta có thể dự đoán rất có khả năng file đó được biên dịch bằng .NET, cụ thể là C#
 
@@ -295,11 +297,11 @@ Mình đã giải mã hai chuỗi trong code (theo thuật toán class cung cấ
 
 còn lại <**MachineName**> và <**registryValue**> ở **SOFTWARE\\hensh1n**
 
-với <MachineName> ta dễ dàng có được trong hive **SYSTEM**
+với **MachineName** ta dễ dàng có được trong hive **SYSTEM**
 
 ![image](https://hackmd.io/_uploads/SkeNCrURle.png)
 
-và <registryValue> thì ở HKCU\SOFTWARE\\hensh1n
+và **registryValue** thì ở HKCU\SOFTWARE\\hensh1n
 ![image](https://hackmd.io/_uploads/Bkt30rLCge.png)
 
 kết hợp tất cả lại ta được flag:

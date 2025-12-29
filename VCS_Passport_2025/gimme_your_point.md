@@ -1,8 +1,3 @@
----
-title: gimme_your_point
-
----
-
 **Gimme Your Point** là một challenge trong CTF Blue của VCS Passport 2025
 
 ![image](https://hackmd.io/_uploads/ByF3YlpQbe.png)

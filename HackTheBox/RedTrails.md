@@ -176,6 +176,7 @@ wrap 3 part lại, ta được flag hoàn chỉnh:
 `HTB{r3d15_1n574nc35_c0uld_0p3n_n3w_un3xp3c73d_7r41l5!}`
 
 **Cảm ơn mọi người đã đọc đến đây, chúc một ngày tốt lành**
+  
 (\\_/)  
 (•.•)  
 (>☕  

@@ -1,8 +1,3 @@
----
-title: RedTrails
-
----
-
 RedTrail là một challenge của HackTheBox, 
 
 ![image](https://hackmd.io/_uploads/ryrD1_CV-g.png)
@@ -84,8 +79,11 @@ Trong key này, ta cũng thấy được `Flag-part1: HTB{r3d15_1n574nc35`
 
 ## Write malicious RDB & RCE:
 Đến với stream tiếp theo
+
 ![image](https://hackmd.io/_uploads/ByjsuL1Hbe.png)
+
 ![image](https://hackmd.io/_uploads/SJGCuIkHWe.png)
+
 ![image](https://hackmd.io/_uploads/BkfyK8yBWl.png)
 
 Ta thấy attacker đang thực thi một số lệnh như:
@@ -178,7 +176,8 @@ wrap 3 part lại, ta được flag hoàn chỉnh:
 `HTB{r3d15_1n574nc35_c0uld_0p3n_n3w_un3xp3c73d_7r41l5!}`
 
 **Cảm ơn mọi người đã đọc đến đây, chúc một ngày tốt lành**
-(\\_/)
-(•.•)
-(>☕
+  
+(\\_/)  
+(•.•)  
+(>☕  
 –– SawG, a.k.a EagleBoiz
